@@ -1,0 +1,32 @@
+Eulerian
+
+ALGORITHM:
+
+Choose a certain vertex as a start?
+
+Eulerian IF:
+out-in = 1   => 1 node
+out-in = -1  => 1 node
+out-in = 0   => for all else
+
+Find one that has extra 1 outdegree. -> The one with outdegree-indegree = 1
+If there are none, then choose any vertex.
+
+To get the head of list: use list[-1].
+
+from start, for all outgoing edges, traverse until there is no longer outgoing edge, remember to not visit edge more than once
+use stack to push node content into it. Use 2 list to store the current path and the Eulerian path
+
+
+
+
+Bonus Part:
+
+Analysis: The node with out-in degree = -1 is always going to be the bottom of the stack
+           The node with out-in degree = 1 is always going to be the start(top) of the stack
+
+
+import itertools
+list(itertools.permutations([1,2,3]))
+
+if the first edge has (out-in) = -1 then skip
