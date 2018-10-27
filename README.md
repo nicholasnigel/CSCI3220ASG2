@@ -6,4 +6,6 @@ Direction:
 If you're looking for 1 whole code, go to directory **euler_code** and open 2.py  
 If you're looking for codes divided into their corresponding Object classes go to **sample** directory and you can find 3 different objects with main.py to put in the prompt.
 
-The code here can be used for just general graph
+The code here can be used for just general graph.
+**asmt2.docx** is the answer to all the questions
+
