@@ -1,4 +1,4 @@
-asmimport sys
+import sys
 
 """"
 CSCI3220 2018-19 First Term Assignment 2
